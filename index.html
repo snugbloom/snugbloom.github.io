@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snugbloom Studio</title>
+<meta name="description" content="Snugbloom Studio is a small independent studio from Italy. We make Tanetto, a cozy self-care app with a little pet.">
+<meta name="theme-color" content="#F6EFE4">
+<link rel="icon" href="icon.png">
+<style>
+:root{--bg:#F6EFE4;--card:#FFFDF8;--ink:#3A3128;--muted:#7A6E62;--accent:#3E7A3A;--line:#E7DCCB}
+@media (prefers-color-scheme:dark){:root{--bg:#1E1B17;--card:#2A2620;--ink:#F3EBDD;--muted:#B9AD9C;--accent:#79B873;--line:#3A342C}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:24px 16px}
+main{max-width:520px;width:100%}
+h1{font-size:1.5rem;margin:0 0 4px}
+.lead{color:var(--muted);margin:0 0 28px}
+.app{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px}
+.app img{width:72px;height:72px;border-radius:18px;flex-shrink:0}
+.app h2{font-size:1.15rem;margin:0}
+.app p{margin:4px 0 10px;color:var(--muted)}
+.links a{display:inline-block;margin:0 12px 6px 0;color:var(--accent);font-weight:600;text-decoration:none}
+.links a:hover{text-decoration:underline}
+footer{margin-top:28px;color:var(--muted);font-size:.9rem}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Snugbloom Studio</h1>
+<p class="lead">A small independent studio from Italy, making gentle apps for everyday life.</p>
+<section class="app">
+<img src="icon.png" alt="Tanetto icon" width="72" height="72">
+<div>
+<h2>Tanetto</h2>
+<p>Small daily goals keep a tiny pet happy. Free, in 14 languages.</p>
+<div class="links">
+<a href="https://play.google.com/store/apps/details?id=com.tanettoapp.tanetto&amp;referrer=utm_source%3Dsnugbloom%26utm_medium%3Dweb%26utm_campaign%3Dstudio">Google Play</a>
+<a href="https://tanettoapp.github.io/Tanetto/?src=snugbloom">Website</a>
+<a href="https://tanettoapp.github.io/Tanetto/privacy.html">Privacy</a>
+</div>
+</div>
+</section>
+<footer>Contact: <a href="mailto:tanettoapp@gmail.com">tanettoapp@gmail.com</a></footer>
+</main>
+</body>
+</html>
